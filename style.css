@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 250px;
+  background: url("./assets/images/header-image.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-title,
+.header-subtitle {
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-title {
+  background: #194488;
+  font-size: 2em;
+}
+
+.header-subtitle {
+  width: 700px;
+  background: #6B8E23;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F0FBFF;
+  text-align: center;
+}
